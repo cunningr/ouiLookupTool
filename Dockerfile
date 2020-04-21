@@ -1,4 +1,4 @@
-FROM python:3.7.7-alpine3.10
+FROM python:3.8-slim-buster
 COPY ./requirements.txt /
 RUN pip install -r /requirements.txt
 RUN rm /requirements.txt
